@@ -1,3 +1,4 @@
+import os
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -23,4 +24,4 @@ def callback_query(call):
 def message_handler(message):
     bot.send_message(message.chat.id, "Yes/no?", reply_markup=gen_markup())
 
-bot.polling(none_stop=True)
+bot.polling
