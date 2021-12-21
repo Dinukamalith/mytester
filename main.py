@@ -2,7 +2,16 @@
 
 from pyrogram import Client, filters
 
-app = Client("5097104342:AAEuKw3O5TekOID2qabNOj2y-SOmTOzQX9c")
+TOKEN = "5097104342:AAEuKw3O5TekOID2qabNOj2y-SOmTOzQX9c"
+
+
+
+app = Client(
+        "mytester",
+        bot_token=TOKEN)
+        
+
+
 
 
 
